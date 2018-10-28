@@ -1,0 +1,15 @@
+{
+  "name": "angular4-es6",
+  "version": "1.0.0",
+  "description": "Курс от WebForMyself. Бонус к Angular4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "angular4-es6"
+  },
+  "author": "Mevericks",
+  "license": "ISC"
+}
