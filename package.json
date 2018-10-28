@@ -5,10 +5,11 @@
   "main": "gulpfile.js",
   "dependencies": {
     "babel-core": "^6.26.3",
-    "babel-preset-es2015": "^6.24.1",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
     "gulp": "^3.9.1",
-    "gulp-babel": "^5.3"
+    "gulp-babel": "^5.3",
+    "jquery": "^1.9.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

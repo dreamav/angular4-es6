@@ -1,23 +1,7 @@
 // http://date.jsontest.com/
 
-// function oldDelay(ms, func) {
-//     setTimeout(function () {
-//         func()
-//     }, ms)
-// }
+// npm i -S jquery@1.9
 
-function delay(ms = 1000) {
-    return new Promise((resolve,reject) => {
-        setTimeout(()=>{
-            reject()
-        }, ms)
-    })
-}
+import $ from "jquery"
 
-delay(3000)
-    .then(()=>{
-        console.log("new delay passed!")
-    })
-    .catch(()=>{
-        console.info("error")
-    })
+$.ajax()
