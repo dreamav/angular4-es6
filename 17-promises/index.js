@@ -14,4 +14,6 @@ function delay(ms = 1000) {
     })
 }
 
-delay(3000)
+delay(3000).then(()=>{
+    console.log("new delay passed!")
+})
