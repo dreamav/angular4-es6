@@ -9,11 +9,15 @@
 function delay(ms = 1000) {
     return new Promise((resolve,reject) => {
         setTimeout(()=>{
-            resolve()
+            reject()
         }, ms)
     })
 }
 
-delay(3000).then(()=>{
-    console.log("new delay passed!")
-})
+delay(3000)
+    .then(()=>{
+        console.log("new delay passed!")
+    })
+    .catch(()=>{
+        console.info("error")
+    })
