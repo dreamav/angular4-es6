@@ -2,11 +2,11 @@
 
 // npm i -S jquery@1.9
 
-import $ from 'jquery';
+import $ from "jquery"
 
 let promise = new Promise((resolve,reject)=>{
     $.ajax({
-        url: "http://date.jsontest.com/",
+        url: "http://datte.jsontest.com/",
         dataType: "json",
         success: response => {
             resolve(response)
