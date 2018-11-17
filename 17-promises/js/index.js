@@ -10452,7 +10452,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var promise = new Promise(function (resolve, reject) {
     _jquery2.default.ajax({
-        url: "http://datte.jsontest.com/",
+        url: "http://date.jsontest.com/",
         dataType: "json",
         success: function success(response) {
             resolve(response);

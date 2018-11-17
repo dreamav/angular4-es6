@@ -6,7 +6,7 @@ import $ from "jquery"
 
 let promise = new Promise((resolve,reject)=>{
     $.ajax({
-        url: "http://datte.jsontest.com/",
+        url: "http://date.jsontest.com/",
         dataType: "json",
         success: response => {
             resolve(response)
